@@ -1,9 +1,8 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: simple-web
+  name: simple-web-service
 spec:
-  type: LoadBalancer
   selector:
     app: simple-web
   ports:

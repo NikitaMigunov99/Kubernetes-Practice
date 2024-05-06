@@ -26,3 +26,13 @@ spec:
             name: simple-web-service
             port:
               number: 80
+  - host: "test-new.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: simple-web-service
+            port:
+              number: 80

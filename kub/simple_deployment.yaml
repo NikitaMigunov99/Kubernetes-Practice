@@ -16,4 +16,4 @@ spec:
       - name: simple-web
         image: nikita99m/simple-web
         ports:
-        - containerPort: 8080
+        - containerPort: 8090

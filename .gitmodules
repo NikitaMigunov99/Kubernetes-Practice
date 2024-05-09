@@ -1,0 +1,3 @@
+[submodule "code/jokes_app/--force"]
+	path = code/jokes_app/--force
+	url = https://github.com/NikitaMigunov99/Spring-Boot-Testing-Examples.git

@@ -6,8 +6,8 @@ spec:
   capacity:
     storage: 2Gi
   accessModes:
-    - ReadWriteOnce
-    – ReadOnlyMany
+  - ReadWriteOnce
+  – ReadOnlyMany
   persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: "/mnt/data"

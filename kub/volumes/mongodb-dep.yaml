@@ -22,6 +22,6 @@ spec:
         - containerPort: 27017
           protocol: TCP
       volumes:
-      – name: mongodb-data
+      - name: mongodb-data
         persistentVolumeClaim:
           claimName: my-claim
